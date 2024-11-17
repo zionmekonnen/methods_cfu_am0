@@ -9,20 +9,20 @@
 "Hello World".downcase
 
 
-"Hello World".include?("Hello")
+puts "Hello World".include?("Hello")
+# The .include? is calling on the string "hello world" to see if the word "hello" is included in the string.   
 
+puts "Hello World".end_with?("Hello")
+# The .end_with? is calling on the string "hello world" to see if the string ends with the word "hello"
 
-"Hello World".end_with?("Hello")
+puts "Hello World".end_with?("rld")
+# The .end_with? is calling on the string "hello world" to see if the string ends with the letters "rld"
 
-
-"Hello World".end_with?("rld")
-
-
-12.even?
-
+12.even?    
+# This method will call on an integer or float to tell us if it is even by giving us a true or false answer. 
 
 18.next
-
+# This method takes the right most character in the string interger or float and moves it up one in value or the next letter in the alphabet
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
@@ -37,7 +37,7 @@
 # In this example, the return value is true, because "Jeff" does start with "J".
 # The puts command prints the return value of the start_with? method (true) to the console.
 first_name = "Jeff"
-puts first_name.start_with?("J")
+#puts first_name.start_with?("J")
 
 
 
