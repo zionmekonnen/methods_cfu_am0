@@ -39,14 +39,6 @@ puts "Hello World".end_with?("rld")
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
-# The method .include? lets me know if the variable i am asking about in included in the string that I declared. The result was true.
-student_grades = 81, 63, 99, 100
-puts student_grades.include?(100)
-
-# The method .sample gives me a random variable from the string of integers that I declared. The outcome prints out a different variable every time.
-raffel_numbers = 54, 72, 44, 97, 199, 128
-puts raffel_numbers.sample 
-
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
@@ -61,3 +53,11 @@ puts raffel_numbers.sample
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# The method .include? lets me know if the variable i am asking about in included in the string that I declared. The result was true.
+student_grades = [81, 63, 99, 100]
+puts student_grades.include?(100)
+
+# The method .sample gives me a random variable from the string of integers that I declared. The outcome prints out a different variable every time.
+raffel_numbers = [54, 72, 44, 97, 199, 128]
+puts raffel_numbers.sample 
