@@ -39,6 +39,14 @@ puts "Hello World".end_with?("rld")
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# The method .end_with? is asking if the string you declared ends with the variable in question which in this case is "n" and the answer is true because "zion" ends with an "n"
+my_name = "Zion"
+puts my_name.end_with?("n")
+
+# this method .upcase takes the string and makes all the variables uppercase so "i love you zion" will become "I LOVE YOU ZION"
+statment = "i love you zion"
+puts statment.upcase 
+
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
@@ -46,6 +54,13 @@ puts first_name.start_with?("J")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+# this method takes the integer and prints the next number so in this case it prints out 34
+number_of_students = 33
+puts number_of_students.next 
+
+# the .last method calls the last number in the array  which is 88 
+length_of_rectangle_sides = [127, 127, 88, 88]
+puts length_of_rectangle_sides.last
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
