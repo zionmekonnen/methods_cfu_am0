@@ -37,8 +37,15 @@ puts "Hello World".end_with?("rld")
 # In this example, the return value is true, because "Jeff" does start with "J".
 # The puts command prints the return value of the start_with? method (true) to the console.
 first_name = "Jeff"
-#puts first_name.start_with?("J")
+puts first_name.start_with?("J")
 
+# The method .include? lets me know if the variable i am asking about in included in the string that I declared. The result was true.
+student_grades = 81, 63, 99, 100
+puts student_grades.include?(100)
+
+# The method .sample gives me a random variable from the string of integers that I declared. The outcome prints out a different variable every time.
+raffel_numbers = 54, 72, 44, 97, 199, 128
+puts raffel_numbers.sample 
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
