@@ -101,14 +101,26 @@ puts hard_square
 # 5: Write a method named "check_stock" that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
-check_stock(4, "Coffee");
+def check_stock(number, item)
+  if number >= 4 && item = "Coffee"
+    puts "Coffee is stocked"
+  elsif number == 0 && item = "Cheese"
+    puts "Cheese - Out of stock!"
+  elsif number <= 3 && item = "Tortillas"
+    puts "Tortillas - running LOW"
+  else number <= 1 && item = "Salsa"
+    puts "Salsa - running LOW"
+  end
+end
+
+check_stock(4, "Coffee")
 # => "Coffee is stocked"
 
-check_stock(3, "Tortillas");
+check_stock(3, "Tortillas")
 # => "Tortillas - running LOW"
 
-check_stock(0, "Cheese");
+check_stock(0, "Cheese")
 # => "Cheese - OUT of stock!"
 
-check_stock(1, "Salsa");
+check_stock(1, "Salsa")
 # => "Salsa - running LOW"
